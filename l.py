@@ -43,7 +43,6 @@ class Pentagon(Shape):
         return (math.sqrt(5 * (5 + 2 * (math.sqrt(5)))) * self * self) / 4
 
 def main():
-    # Example side length for a regular pentagon
     side_length = 5
     pentagon = Pentagon.getArea(side_length)
     print(f"The area of the pentagon is {pentagon}")
